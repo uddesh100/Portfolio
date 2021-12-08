@@ -1,0 +1,47 @@
+body:div{
+    background-color: rgb(105, 186, 189);
+}
+
+.name{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+.intro {
+    margin: 70px;
+    color:rgb(237, 243, 243);
+    height:min-content;
+    border-radius: 5px;
+}
+
+.image{
+    margin:15px;
+    margin-left: 15%;
+    border: 3px solid black;
+    border-radius: 9px;
+}
+
+.icons{
+    display: flex;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: 100px;
+}
+
+.icons div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    text-align: center;
+}
+
+.icons h7{
+    color: white;
+    font-size: large;
+}
+.icons p{
+    color: white;
+    font-size: small;
+}
