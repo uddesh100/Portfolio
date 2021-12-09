@@ -3,23 +3,38 @@ body:div{
 }
 
 .name{
-    margin-top: 100px;
+    margin: 100px;
     color: white;
     text-align: center;
 }
 
 .intro {
-    margin: 70px;
+    margin-left: auto;
+    margin-right: auto;
     color:rgb(237, 243, 243);
     height:min-content;
     border-radius: 5px;
+    display: flex;
+}
+
+.intro p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 900;
+}
+
+.intro em{
+    color: rgb(43, 121, 223);
 }
 
 .image{
-    margin:15px;
-    margin-left: 15%;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid black;
     border-radius: 9px;
+    z-index: 900;
 }
 
 .icons{
@@ -28,6 +43,7 @@ body:div{
     margin-left: 15%;
     margin-right: 20%;
     margin-top: 100px;
+    
 }
 
 .icons div{
@@ -35,6 +51,7 @@ body:div{
     margin-right: auto;
     width: 130px;
     text-align: center;
+    z-index: 900;
 }
 
 .icons h7{
@@ -44,4 +61,5 @@ body:div{
 .icons p{
     color: white;
     font-size: small;
+    z-index: 900;
 }

@@ -9,34 +9,34 @@ function Home() {
         return(
         <div>
             <div className="name">
-                Hello, I'm Uddeshya Kumar
-                <p>I'm a Full-Stack Software Engineer</p>
+                <div className='intro'>
+                    <img className='image' src='/Profile2.jpg' alt='' width="300" height="300"/>
+                    <p>Hey, I'm <em>Uddeshya.</em> <br/>I'm a Full-Stack Software Engineer</p>
+                </div>
             </div>
              <div className="icons">
                 <div>
-                <DeleteIcon color="primary" sx={{fontSize:100}}/>
-                <h7>Trash</h7>
-                <p>Trash how is this happening</p>
+                    <DeleteIcon color="primary" sx={{fontSize:100}}/>
+                    <h7>Trash</h7>
+                    <p>Trash how is this happening</p>
                 </div>
                 <div>
-                <RocketLaunchIcon color="primary" sx={{fontSize:100}}/>
-                <h7>Fast</h7>
-                <p>I'm fast as fuck boiiiii</p>
+                    <RocketLaunchIcon color="primary" sx={{fontSize:100}}/>
+                    <h7>Fast</h7>
+                    <p>I'm fast as fuck boiiiii</p>
                 </div>
                 <div>
-                <DevicesIcon color="primary" sx={{fontSize:100}}/>
-                <h7>Smart</h7>
-                <p>It's big brain time</p>
+                    <DevicesIcon color="primary" sx={{fontSize:100}}/>
+                    <h7>Smart</h7>
+                    <p>It's big brain time</p>
                 </div>
                 <div>
-                <LightbulbIcon color="primary" sx={{fontSize:100}}/>
-                <h7>Innovative</h7>
-                <p>Create something new out of nothing</p>
+                    <LightbulbIcon color="primary" sx={{fontSize:100}}/>
+                    <h7>Innovative</h7>
+                    <p>Create something new out of nothing</p>
                 </div>
             </div>
-            <div className='intro'>
-                    <img className='image' src='/Profile2.jpg' alt='' width="200" height="200"/>
-            </div>
+            
             <div className='summary'>
             </div>
             <div className='skills'>

@@ -2,6 +2,8 @@ import * as React from 'react';
 import Home from "./components/Tabs/Home.js"
 import './App.css';
 import {Tabs, Tab, AppBar} from '@material-ui/core';
+import Particles from 'react-tsparticles';
+import particlesConfig from './config/configParticles';
 
 
 function App() {
@@ -12,7 +14,10 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App" style={{ position: 'relative', overflow: "hidden" }}>
+        <div className="back" style={{ position: 'absolute'}}>
+        <Particles height="100vh" width="100vw" params={particlesConfig} />
+        </div>
         <AppBar>
           <Tabs value={value} onChange={handleTabs}>
             <Tab label="Home" />

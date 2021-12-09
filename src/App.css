@@ -3,6 +3,14 @@
   color: rgb(10, 6, 0);
 }
 
+.back{
+  z-index: 0;
+}
+
+.home{
+  z-index: 100;
+}
+
 .tabs{
   display:flexbox;
 }
