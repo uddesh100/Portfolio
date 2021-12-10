@@ -63,3 +63,13 @@ body:div{
     font-size: small;
     z-index: 900;
 }
+
+.social{
+    display: flex;
+    
+}
+
+.social div{
+    margin-left: auto;
+    margin-right: auto;
+}

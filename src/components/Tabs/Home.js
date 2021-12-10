@@ -4,6 +4,7 @@ import DeleteIcon from '@mui/icons-material/DeleteOutlined';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import DevicesIcon from '@mui/icons-material/Devices';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
+import { SocialIcon } from 'react-social-icons';
 
 function Home() {
         return(
@@ -11,7 +12,16 @@ function Home() {
             <div className="name">
                 <div className='intro'>
                     <img className='image' src='/Profile2.jpg' alt='' width="300" height="300"/>
-                    <p>Hey, I'm <em>Uddeshya.</em> <br/>I'm a Full-Stack Software Engineer</p>
+                    <p>
+                        Hey, I'm <em>Uddeshya.</em> <br/>I'm a Full-Stack Software Engineer <br/>
+                        <div className="social">
+                            <div><SocialIcon url="https://www.facebook.com/uddeshya.kumar.526/"/></div>
+                            <div><SocialIcon url="https://github.com/uddesh100"/></div>
+                            <div><SocialIcon url="https://instagram.com"/></div>
+                            <div><SocialIcon url="https://www.linkedin.com/in/uddeshya-kumar-001490183/"/></div>
+                        </div>
+                    </p>
+                    
                 </div>
             </div>
              <div className="icons">
