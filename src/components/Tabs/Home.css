@@ -32,9 +32,17 @@ body:div{
 .image{
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid black;
     border-radius: 9px;
-    z-index: 900;
+    z-index: 1;
+    box-shadow : 0 15px 40px rgba(189, 240, 4, 0.2);
+    transition: border-radius 0.3s;
+}
+
+.image:hover{
+    visibility : visible;
+    opacity : 1;
+    box-shadow : 0 15px 40px rgba(255, 3, 3, 0.2);
+    border-radius: 220px;
 }
 
 .icons{
@@ -72,4 +80,8 @@ body:div{
 .social div{
     margin-left: auto;
     margin-right: auto;
+}
+
+.name_link:hover {
+    cursor: pointer;
 }

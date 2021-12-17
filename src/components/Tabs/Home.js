@@ -7,18 +7,23 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import { SocialIcon } from 'react-social-icons';
 
 function Home() {
+
+        const handleClick = () => {
+            window.open("https://www.wisdomlib.org/definition/uddeshya");
+        }
+        
         return(
         <div>
             <div className="name">
                 <div className='intro'>
                     <img className='image' src='/Profile2.jpg' alt='' width="300" height="300"/>
                     <p>
-                        Hey, I'm <em>Uddeshya.</em> <br/>I'm a Full-Stack Software Engineer <br/>
+                        Hey, I'm <em className="name_link" onClick={handleClick}>Uddeshya.</em> <br/>I'm a Full-Stack Software Engineer <br/>
                         <div className="social">
-                            <div><SocialIcon url="https://www.facebook.com/uddeshya.kumar.526/"/></div>
-                            <div><SocialIcon url="https://github.com/uddesh100"/></div>
-                            <div><SocialIcon url="https://instagram.com"/></div>
-                            <div><SocialIcon url="https://www.linkedin.com/in/uddeshya-kumar-001490183/"/></div>
+                            <div><SocialIcon url= "https://www.facebook.com/uddeshya.kumar.526/" fgColor="#893E4F"/></div>
+                            <div><SocialIcon url="https://github.com/uddesh100" fgColor="#e1c699"/></div>
+                            <div><SocialIcon url="https://instagram.com" fgColor="#1D4527"/></div>
+                            <div><SocialIcon url="https://www.linkedin.com/in/uddeshya-kumar-001490183/" fgColor="#DFE979"/></div>
                         </div>
                     </p>
                     

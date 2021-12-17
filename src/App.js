@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Home from "./components/Tabs/Home.js"
+import Projects from "./components/Tabs/Projects.js"
 import './App.css';
 import {Tabs, Tab, AppBar} from '@material-ui/core';
 import Particles from 'react-tsparticles';
@@ -22,11 +23,11 @@ function App() {
           <Tabs value={value} onChange={handleTabs}>
             <Tab label="Home" />
             <Tab label="Projects" />
-            <Tab label="Contact" />
+            <Tab label="Resume" />
           </Tabs>
         </AppBar>
         <TabPanel value={value} index={0}><Home/></TabPanel>
-        <TabPanel value={value} index={1}>Projects</TabPanel>
+        <TabPanel value={value} index={1}><Projects/></TabPanel>
         <TabPanel value={value} index={2}>Contact</TabPanel>
     </div>
   );
