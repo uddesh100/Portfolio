@@ -4,11 +4,11 @@ const particlesConfig = {
             "value": 600,
             "density": {
               "enable": true,
-              "value_area": 3000
+              "value_area": 2700
             }
           },
           "color": {
-            "value": "#ffffff"
+            "value": "#F2AA4CFF"
           },
           "shape": {
             "type": "circle",
@@ -48,7 +48,7 @@ const particlesConfig = {
           "line_linked": {
             "enable": true,
             "distance": 150,
-            "color": "#ffffff",
+            "color": "#000000",
             "opacity": 0.4,
             "width": 1
           },

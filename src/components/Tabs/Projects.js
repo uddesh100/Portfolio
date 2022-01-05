@@ -19,16 +19,16 @@ function Projects() {
                     </div>
                     <div className = "card">
                         <div className="image">
-                            <img href = "#" src ="https://skift.com/wp-content/uploads/2016/12/google-food-emoji-1024x683.png" alt=""/>
+                            <img href = "#" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/800px-Typical_Tetris_Game.svg.png" alt=""/>
                         </div>
                         <div className = "content">
-                            <h2>Restraunts Recommendatios</h2>
-                            <p>.</p>
+                            <h2>Tetris</h2>
+                            <p></p>
                         </div>
                     </div>
                     <div className = "card">
                         <div className="image">
-                            <img href = "#" src ="https://content.fortune.com/wp-content/uploads/2018/04/gettyimages-923334996.jpg" alt=""/>
+                            <img href = "#" src ="http://ww1.prweb.com/prfiles/2018/07/10/15619597/distracted%20driving%202.jpg" alt=""/>
                         </div>
                         <div className = "content">
                             <h2>Distracted Driver Detection</h2>
@@ -43,7 +43,18 @@ function Projects() {
                             <h2>Instant News</h2>
                             <p>.</p>
                         </div>
-                    </div>     
+                    </div>    
+                </div>
+                <div className='container'>
+                <div className = "card">
+                        <div className="image">
+                            <img href = "#" src ="https://psmag.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTI3NTgyMjIwOTYwNjM1MzU4/flappy-bird.jpg" alt=""/>
+                        </div>
+                        <div className = "content">
+                            <h2>Flappy Bird</h2>
+                            <p>.</p>
+                        </div>
+                    </div>
                 </div>
                 </div>
 </body>

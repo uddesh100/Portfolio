@@ -23,6 +23,7 @@ body:div{
     margin-left: auto;
     margin-right: auto;
     z-index: 900;
+    color: white;
 }
 
 .intro em{
@@ -84,4 +85,102 @@ body:div{
 
 .name_link:hover {
     cursor: pointer;
+}
+
+.indicator{
+    color:rgb(43, 121, 223);
+    text-align: center;
+    width: 10%;
+    background-color: white;
+}
+
+.skills{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
+    padding: 50px;
+}
+
+.skill{
+    display: flex;
+    margin-top: 5px;
+    color: black;
+    padding: 10px;
+}
+
+.skill p{
+    font-size: small;
+}
+
+.skills p{
+    color: white;
+    opacity: 0.99;
+    margin-left: 15px;
+} 
+
+.progress{
+    background-color:white;
+    border-radius: 50px;
+    width: 90%;
+    opacity: 0.99;
+    font-size: small;
+    height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hundered{
+    width: 100%;
+    background-color: rgb(43, 121, 223);
+    border-radius: 50px;
+    height: 100%;
+}
+
+.ninety{
+    width: 90%;
+    background-color: rgb(43, 121, 223);
+    border-radius: 50px;
+    height: 100%;
+}
+
+.eighty{
+    width: 80%;
+    background-color: rgb(43, 121, 223);
+    border-radius: 50px;
+    height: 100%;
+}
+
+.seventy{
+    width: 70%;
+    background-color: rgb(43, 121, 223);
+    border-radius: 50px;
+    height: 100%;
+}
+
+.sixty{
+    width: 60%;
+    background-color: rgb(43, 121, 223);
+    border-radius: 50px;
+    height: 100%;
+}
+
+.fifty{
+    width: 50%;
+    background-color: rgb(43, 121, 223);
+    border-radius: 50px;
+    height: 100%;
+}
+
+.summary{
+    color:rgb(43, 121, 223);
+}
+
+.page{
+    text-align: center;
+    z-index: 900;
+}
+
+.logo{
+    margin-left: 10px;
+    opacity: 0.9;
 }

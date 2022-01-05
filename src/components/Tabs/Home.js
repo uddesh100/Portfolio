@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import DeleteIcon from '@mui/icons-material/DeleteOutlined';
+import PaletteIcon from '@mui/icons-material/Palette';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import DevicesIcon from '@mui/icons-material/Devices';
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
@@ -13,7 +13,7 @@ function Home() {
         }
         
         return(
-        <div>
+        <div className='page'>
             <div className="name">
                 <div className='intro'>
                     <img className='image' src='/Profile2.jpg' alt='' width="300" height="300"/>
@@ -22,7 +22,7 @@ function Home() {
                         <div className="social">
                             <div><SocialIcon url= "https://www.facebook.com/uddeshya.kumar.526/" fgColor="#893E4F"/></div>
                             <div><SocialIcon url="https://github.com/uddesh100" fgColor="#e1c699"/></div>
-                            <div><SocialIcon url="https://instagram.com" fgColor="#1D4527"/></div>
+                            <div><SocialIcon url="https://www.instagram.com/uddeshya10/" fgColor="#1D4527"/></div>
                             <div><SocialIcon url="https://www.linkedin.com/in/uddeshya-kumar-001490183/" fgColor="#DFE979"/></div>
                         </div>
                     </p>
@@ -31,9 +31,9 @@ function Home() {
             </div>
              <div className="icons">
                 <div>
-                    <DeleteIcon color="primary" sx={{fontSize:100}}/>
-                    <h7>Trash</h7>
-                    <p>Trash how is this happening</p>
+                    <PaletteIcon color="primary" sx={{fontSize:100}}/>
+                    <h7>Creativity</h7>
+                    <p>I like to create </p>
                 </div>
                 <div>
                     <RocketLaunchIcon color="primary" sx={{fontSize:100}}/>
@@ -51,10 +51,62 @@ function Home() {
                     <p>Create something new out of nothing</p>
                 </div>
             </div>
-            
-            <div className='summary'>
-            </div>
+
             <div className='skills'>
+                <div className='skill'>
+                    <div className='progress'>
+                        <div className='ninety'>90%</div>
+                    </div>
+                    <img className='logo' src='/py.png' alt='' width='35' height="35"/>
+                </div>
+                <div className='skill'>
+                    <div className='progress'>
+                        <div className='ninety'>90%</div>
+                    </div>
+                    <img className='logo' src='/C++.png' alt='' width='35' height="35"/>
+                </div>
+                <div className='skill'>
+                    <div className='progress'>
+                        <div className='seventy'>70%</div>
+                    </div>
+                    <img className='logo' src='/JS.png' alt='' width='35' height="35"/>
+                </div>
+                <div className='skill'>
+                    <div className='progress'>
+                        <div className='seventy'>70%</div>
+                    </div>
+                    <img className='logo' src='/Node.png' alt='' width='35' height="35"/>
+                </div>
+                <div className='skill'>
+                    <div className='progress'>
+                        <div className='seventy'>70%</div>
+                    </div>
+                    <img className='logo' src='/React.png' alt='' width='35' height="35"/>
+                </div>
+                <div className='skill'>
+                    <div className='progress'>
+                        <div className='seventy'>70%</div>
+                    </div>
+                    <img className='logo' src='/HTML.png' alt='' width='35' height="35"/>
+                </div>
+                <div className='skill'>
+                    <div className='progress'>
+                        <div className='seventy'>70%</div>
+                    </div>
+                    <img className='logo' src='/CSS.png' alt='' width='35' height="35"/>
+                </div>
+                <div className='skill'>
+                    <div className='progress'>
+                        <div className='sixty'>60%</div>
+                    </div>
+                    <img className='logo' src='/SQL.png' alt='' width='35' height="35"/>
+                </div>
+                <div className='skill'>
+                    <div className='progress'>
+                        <div className='fifty'>50%</div>
+                    </div>
+                    <img className='logo' src='/C.png' alt='' width='35' height="35"/>
+                </div>
             </div>
         </div>
         );
